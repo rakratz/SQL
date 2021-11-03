@@ -1,0 +1,5 @@
+-- Criação do Banco de Dados db_Controle
+CREATE DATABASE db_Controle;
+
+-- Selecionando para USO o Banco de Dados
+USE db_Controle; 
