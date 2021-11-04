@@ -1,0 +1,10 @@
+-- Criação da Tabela Amigos: tbl_Contatos
+USE db_Controle;
+CREATE TABLE tbl_Contatos 
+( idContato INT NOT NULL, 
+ nome VARCHAR(150) NOT NULL,
+ email VARCHAR(150) NOT NULL UNIQUE,
+ celular VARCHAR(20) NOT NULL, 
+ dataNascimento DATE,
+PRIMARY KEY (idContato)
+);
