@@ -1,0 +1,11 @@
+-- Criação da Tabela: tbl_compromissos
+USE db_Controle ;
+CREATE TABLE tbl_compromissos (
+idCompromisso INT NOT NULL, 
+descricao TEXT NOT NULL,
+data DATE NOT NULL,
+hora TIME NOT NULL,
+idContato_fk INT NOT NULL
+PRIMARY KEY (idCompromisso),
+FOREIGN KEY (idContato_fk) REFERENCES tbl_Contatos(idContato)
+);
