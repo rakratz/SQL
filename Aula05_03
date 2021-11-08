@@ -1,0 +1,17 @@
+USE db_Controle;
+
+-- Inserindo dados da tabela de Livros
+INSERT INTO tbl_Livros  (nomeLivro, ISBN, dataPublicacao, precoLivro, idAutor, idEditora) 
+VALUES ('Sistemas Operacionais Modernos','8543005671', '20151207', 234.39, 1, 1) ;
+
+INSERT INTO tbl_Livros  (nomeLivro, ISBN, dataPublicacao, precoLivro, idAutor, idEditora) 
+VALUES ('Teoria Geral da Administração','9788535208498', '20210712', 185.99, 2, 2) ;
+
+INSERT INTO tbl_Livros  (nomeLivro, ISBN, dataPublicacao, precoLivro, idAutor, idEditora) 
+VALUES ('The Second Machine Age','0393350649', '20160125', 80.12, 3, 4) ;
+
+INSERT INTO tbl_Livros  (nomeLivro, ISBN, dataPublicacao, precoLivro, idAutor, idEditora) 
+VALUES ('Engenharia de Software','8580555337', '20160115', 253.48, 4 , 3) ;
+
+INSERT INTO tbl_Livros  (nomeLivro, ISBN, dataPublicacao, precoLivro, idAutor, idEditora) 
+VALUES ('Motivação nas Organizações','B07GBH34MN', '20180809', 70.81, 5 , 1) ;
