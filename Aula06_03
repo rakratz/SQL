@@ -1,0 +1,6 @@
+USE db_Controle;
+-- Exemplos
+SELECT descricao, idContato_fk FROM tbl_Compromissos
+
+-- Exemplos
+SELECT DISTINCT idContato_fk FROM tbl_Compromissos; 
