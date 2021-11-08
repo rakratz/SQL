@@ -1,0 +1,6 @@
+USE db_Controle;
+-- Inserindo dados da tabela de Editoras
+INSERT INTO tbl_Editoras  (NomeEditora) VALUES ('Prentice Hall') ;
+INSERT INTO tbl_Editoras  (NomeEditora) VALUES ('Atlas') ;
+INSERT INTO tbl_Editoras  (NomeEditora) VALUES ('Bookman') ;
+INSERT INTO tbl_Editoras  (NomeEditora) VALUES ('Norton') ;
