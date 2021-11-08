@@ -1,0 +1,3 @@
+USE db_Controle;
+SELECT TOP 10 PERCENT * FROM tbl_Contatos; 
+SELECT TOP 2 nomeLivro, ISBN FROM tbl_Livros; 
