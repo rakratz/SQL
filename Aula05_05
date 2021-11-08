@@ -1,0 +1,7 @@
+USE db_Controle;
+-- Inserindo dados da tabela de Compromissos
+INSERT INTO tbl_Compromissos (idCompromisso, descricao, data, hora, idContato_fk) 
+VALUES (1,'Reunião de Metas', '20211122', '14:00', 1) ;
+
+INSERT INTO tbl_Compromissos (idCompromisso, descricao, data, hora, idContato_fk) 
+VALUES (2,'Vendas', '20211123', '17:30', 3) ;
