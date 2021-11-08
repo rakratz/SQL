@@ -1,0 +1,4 @@
+USE db_Controle;
+-- Exemplos
+SELECT * FROM tbl_Livros WHERE idAutor = 1;  
+SELECT idCompromisso, descricao FROM tbl_Compromissos WHERE idContato_fk = 1;
