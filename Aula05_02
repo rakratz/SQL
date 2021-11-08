@@ -1,0 +1,33 @@
+-- Usando o Banco de dados db_Controle
+USE db_Controle;
+
+USE db_Controle;
+-- Criação da Tabela com os Campos
+CREATE TABLE tbl_Livros (
+idLivro SMALLINT IDENTITY(100,1),
+nomeLivro VARCHAR(200) NOT NULL,
+ISBN VARCHAR(30) NOT NULL UNIQUE,
+idAutor SMALLINT NOT NULL,
+dataPublicacao DATETIME NOT NULL,
+precoLivro MONEY NOT NULL,
+PRIMARY KEY (idLivro)
+);
+
+-- Criação da Tabela com os Campos
+CREATE TABLE tbl_Livros (
+idLivro SMALLINT IDENTITY(100,1),
+nomeLivro VARCHAR(200) NOT NULL,
+ISBN VARCHAR(30) NOT NULL UNIQUE,
+idAutor SMALLINT NOT NULL,
+dataPublicacao DATETIME NOT NULL,
+precoLivro MONEY NOT NULL,
+PRIMARY KEY (idLivro)
+);
+
+-- Criação da Tabela com os Campos
+CREATE TABLE tbl_Autores (
+idAutor SMALLINT IDENTITY,
+nomeAutor VARCHAR(100) NOT NULL,
+sobreNomeAutor VARCHAR(100) NOT NULL,
+PRIMARY KEY (idAutor)
+);
