@@ -1,0 +1,8 @@
+-- Execute idnividualmente cada comando
+SP_HELP tblLivros; 
+
+-- Execute idnividualmente cada comando
+SP_HELP tblAutores; 
+
+-- Execute idnividualmente cada comando
+SP_HELP tblEditoras;
