@@ -1,0 +1,7 @@
+USE db_Controle;
+-- Exemplos
+SELECT nomeLivro FROM tbl_Livros ORDER BY nomeLivro; 
+
+USE db_Controle;
+-- Exemplos
+SELECT * FROM tbl_Livros ORDER BY nomeLivro DESC; 
