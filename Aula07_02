@@ -1,0 +1,8 @@
+USE db_Controle;
+UPDATE tbl_Livros
+ SET precoLivro = 209.90
+ WHERE idLivro = 101; 
+
+
+USE db_Controle;
+SELECT * FROM tbl_Livros
