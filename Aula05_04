@@ -1,0 +1,10 @@
+USE db_Controle;
+-- Inserindo dados da tabela de Contatos
+INSERT INTO tbl_Contatos (idContato, Nome, email, celular, dataNascimento) 
+VALUES (1,‘Roberto Carlos’, ‘roberto@gmail.com’, '(11) 9999-99999', ‘19501010’) ;
+
+INSERT INTO tbl_ Contatos (idContato, Nome, email, celular, dataNascimento) 
+VALUES (2,‘Ana Maria’, ‘ana@gmail.com’, '(51) 8888-8888', 19851122);
+
+INSERT INTO tbl_ Contatos (idContato, Nome, email, celular, dataNascimento) 
+VALUES (3,‘Carlos Albert’, ‘carlos@gmail.com’, '(62) 99292-8888', 19900727);
