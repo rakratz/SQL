@@ -1,0 +1,5 @@
+-- Usando o Banco de dados dbSistema
+USE dbSistema;
+-- Excluir campo idAutor
+ALTER TABLE tbl_Livros 
+DROP COLUMN idAutor ;
