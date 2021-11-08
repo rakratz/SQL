@@ -1,0 +1,12 @@
+USE db_Controle;
+CREATE TABLE tbl_Testes (
+idTest SMALLINT IDENTITY,
+valor INT NOT NULL,
+PRIMARY KEY (idTest)  );
+
+INSERT INTO tbl_Testes(valor) VALUES (10);
+INSERT INTO tbl_Testes(valor) VALUES (20);
+INSERT INTO tbl_Testes(valor) VALUES (30);
+INSERT INTO tbl_Testes(valor) VALUES (40);
+
+SELECT * FROM tbl_Testes; 
