@@ -1,0 +1,12 @@
+-- Usando o Banco de dados db_Controle
+USE db_Controle;
+-- Adicionar uma Coluna (campo) à uma tabela
+ALTER TABLE tbl_Livros 
+ADD idAutor SMALLINT NOT NULL
+CONSTRAINT fk_idAutor FOREIGN KEY (idAutor) 
+REFERENCES tbl_Autores;
+-- Adicionar uma Coluna (campo) à uma tabela
+ALTER TABLE tbl_Livros 
+ADD idEditora SMALLINT NOT NULL
+CONSTRAINT fk_idEditora FOREIGN KEY (idEditora) 
+REFERENCES tbl_Editoras ;
