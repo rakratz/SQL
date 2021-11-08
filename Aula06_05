@@ -1,0 +1,4 @@
+USE db_Controle;
+-- Exemplos
+SELECT * FROM tbl_Livros;  
+SELECT * FROM tbl_Livros WHERE idLivro > 100 AND idLivro < 103 ;
