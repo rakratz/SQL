@@ -1,0 +1,4 @@
+-- Exemplos
+SELECT nomeAutor FROM tbl_Autores; 
+SELECT * FROM tbl_Livros; 
+SELECT nomeLivro, ISBN FROM tbl_Livros
