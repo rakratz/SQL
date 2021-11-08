@@ -1,0 +1,7 @@
+USE db_Controle;
+-- Inserindo dados da tabela de Autores
+INSERT INTO tbl_Autores (NomeAutor, SobreNomeAutor) VALUES ('Andrew', 'Tanenbaum') ;
+INSERT INTO tbl_Autores (NomeAutor, SobreNomeAutor) VALUES ('Idalberto', 'Chiavenato') ;
+INSERT INTO tbl_Autores (NomeAutor, SobreNomeAutor) VALUES ('Andrew', 'Mcafee') ;
+INSERT INTO tbl_Autores (NomeAutor, SobreNomeAutor) VALUES ('Roger', 'Pressman') ;
+INSERT INTO tbl_Autores (NomeAutor, SobreNomeAutor) VALUES ('Cecília', 'Bergamini') ;
