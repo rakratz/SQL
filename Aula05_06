@@ -1,0 +1,9 @@
+-- Usando o Banco de dados dbSistema
+USE dbSistema;
+-- Alterando uma Coluna (campo) à uma tabela
+ALTER TABLE tbl_Livros 
+ALTER COLUMN idAutor SMALLINT;
+
+-- Criando uma PK à uma tabela
+ALTER TABLE tbl_Testes 
+ADD PRIMARY KEY (idTeste);
