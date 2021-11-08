@@ -1,0 +1,4 @@
+-- Usando o Banco de dados db_Controle
+USE db_Controle;
+-- Excluindo tabela
+DROP TABLE tbl_Testes ;
