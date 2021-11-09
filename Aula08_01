@@ -1,0 +1,61 @@
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+SELECT * FROM tbl_Contatos;
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+SELECT * INTO tbl_ContatosBackup FROM tbl_Contatos;
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+SELECT * FROM tbl_ContatosBackup;
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+-- Função MONTH retorna o número de mês de uma data
+SELECT * FROM tbl_Contatos WHERE MONTH(dataNascimento) = '11'
+
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+SELECT * INTO tblContatosNovembro FROM tbl_Contatos WHERE MONTH(dataNascimento) = '11'
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+SELECT * FROM tblContatosNovembro
+
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+SELECT * INTO tbl_Livros2 FROM tbl_Livros WHERE idLivro > 102;
+
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+SELECT * FROM tbl_Livros2;
+
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+SELECT nome, celular FROM tbl_Contatos;
+
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+SELECT nome, celular INTO tbl_ClienteCelulares FROM tbl_Contatos;
+
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+SELECT * FROM tbl_ClienteCelulares;
