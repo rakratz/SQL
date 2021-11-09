@@ -1,0 +1,37 @@
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+-- União de duas consultas
+SELECT idContato_fk FROM tbl_Compromissos 
+UNION
+SELECT idContato FROM tbl_Contatos
+
+
+
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+-- União de duas consultas
+SELECT idContato_fk FROM tbl_Compromissos 
+UNION ALL
+SELECT idContato FROM tbl_Contatos
+
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+-- União de duas consultas
+SELECT nomeLivro FROM tbl_Livros 
+UNION
+SELECT nomeAutor FROM tbl_Autores;
+
+
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+-- União de duas consultas
+SELECT nomeLivro FROM tbl_Livros 
+UNION ALL
+SELECT nomeAutor FROM tbl_Autores;
