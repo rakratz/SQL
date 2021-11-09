@@ -1,0 +1,24 @@
+USE db_Controle;
+-- Inserindo dados da tabela de Contatos
+INSERT INTO tbl_Contatos (idContato, Nome, email, celular, dataNascimento) 
+VALUES (4,'Maria Rosana Costa', 'maria@gmail.com', '(21) 9897-99999', '19991110') ;
+
+INSERT INTO tbl_Contatos (idContato, Nome, email, celular, dataNascimento) 
+VALUES (5,'Viviane Cardoso', 'vivi@gmail.com', '(51) 8777-8888', '19850723');
+
+INSERT INTO tbl_Contatos (idContato, Nome, email, celular, dataNascimento) 
+VALUES (6,'Bruno Almeida', 'bruno201@gmail.com', '(62) 9222-7777', '19950822');
+
+
+INSERT INTO tbl_Contatos (idContato, Nome, email, celular, dataNascimento) 
+VALUES (7,'Ricardo de Andrade', 'ricardoA@gmail.com', '(62) 9888-6668', '19920702');
+
+USE db_Controle;
+SELECT * FROM tbl_Contatos WHERE dataNascimento BETWEEN '19900101' AND '20000101'; 
+
+USE db_Controle;
+SELECT * FROM tbl_Livros WHERE precoLivro BETWEEN 50.1 AND 100.5;
+
+
+USE db_Controle;
+SELECT * FROM tbl_Livros WHERE precoLivro BETWEEN 50.1 AND 100.5 ORDER BY precoLivro;
