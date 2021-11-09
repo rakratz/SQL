@@ -1,0 +1,22 @@
+-- Exemplo de funções agregadas 
+SELECT COUNT(*) FROM tbl_Contatos;
+
+SELECT MAX(precoLivro) FROM tbl_Livros;
+
+SELECT MIN(precoLivro) FROM tbl_Livros;
+
+SELECT AVG(precoLivro) FROM tbl_Livros;
+
+SELECT SUM(precoLivro) FROM tbl_Livros;
+
+
+-- Exemplo de funções agregadas 
+SELECT COUNT(*) AS Quantidade FROM tbl_Contatos;
+
+SELECT MAX(precoLivro) AS Maior FROM tbl_Livros;
+
+SELECT MIN(precoLivro) AS Menor FROM tbl_Livros;
+
+SELECT AVG(precoLivro) AS Media FROM tbl_Livros;
+
+SELECT SUM(precoLivro) AS Total FROM tbl_Livros;
