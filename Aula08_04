@@ -1,0 +1,54 @@
+USE db_Controle;
+-- Pesquisa padrão
+SELECT * FROM tbl_Contatos;
+
+--Pesquisando nomes que iniciam com "C"
+SELECT * FROM tbl_Contatos WHERE nome LIKE 'C%';
+
+
+USE db_Controle;
+-- Pesquisa padrão
+SELECT * FROM tbl_Contatos;
+
+--Pesquisando nomes que tenha a palavra “Andrade"
+SELECT * FROM tbl_Contatos WHERE nome LIKE '%Andrade%';
+
+
+USE db_Controle;
+-- Pesquisa padrão
+SELECT * FROM tbl_Contatos;
+
+--Pesquisando nomes terminam com a letra “o”
+SELECT * FROM tbl_Contatos WHERE nome LIKE '%o';
+
+
+USE db_Controle;
+-- Pesquisa padrão
+SELECT * FROM tbl_Contatos;
+
+--Pesquisando nomes com a segunda letra “i”
+SELECT * FROM tbl_Contatos WHERE nome LIKE ‘_i%';
+
+
+USE db_Controle;
+-- Pesquisa padrão
+SELECT * FROM tbl_Contatos;
+
+--Pesquisando nomes iniciam com “R” ou “C”
+SELECT * FROM tbl_Contatos WHERE nome LIKE ‘[RC]%';
+
+
+USE db_Controle;
+-- Pesquisa padrão
+SELECT * FROM tbl_Contatos;
+
+--Pesquisando nomes com a segunda letra “R” ou “V”
+SELECT * FROM tbl_Contatos WHERE nome LIKE '__[RV]%';
+
+
+USE db_Controle;
+-- Pesquisa padrão
+SELECT * FROM tbl_Contatos;
+
+--Pesquisando nomes que NÃO tenha a palavra “Andrade"
+SELECT * FROM tbl_Contatos WHERE nome NOT LIKE '%Andrade%';
