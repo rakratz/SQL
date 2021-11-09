@@ -1,0 +1,20 @@
+-- Selecionando o Banco de Dados
+USE db_Controle;
+-- Criandos dois Alias: Clientes e Aniversário
+SELECT nome AS Cliente, dataNascimento AS Aniversario FROM tbl_Contatos; 
+
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+-- Criandos dois Alias: Clientes e Aniversário
+SELECT nome AS Cliente,  FORMAT(dataNascimento, 'dd/MM/yyyy') AS Aniversario FROM tbl_Contatos; 
+
+
+
+-- Selecionando o Banco de Dados
+USE db_Controle;
+
+-- Criandos dois Alias: 
+SELECT descricao AS Evento, 
+       FORMAT(data, 'dd/MM/yyyy') AS Dia, 
+       FORMAT(CAST(hora AS TIME ), N'hh\:mm') AS Horario FROM tbl_Compromissos; 
